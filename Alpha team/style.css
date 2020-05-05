@@ -1,6 +1,11 @@
 /* Aya Start */
-
-
+.col-out{
+    margin-top:8rem;
+    margin-bottom: 4rem;
+}
+.empty{
+    height:5rem;
+}
 
 /* Aya end */
 
