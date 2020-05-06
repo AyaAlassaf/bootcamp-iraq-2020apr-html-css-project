@@ -15,7 +15,7 @@
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -26,8 +26,8 @@
       
         <!-- First column -->
     <div class="col col-out">
-      <div class="sh-single-image-container">				
-        <img class="sh-image-url" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Replace-screen-inside-this-SO3-1.jpg" alt="Replace-screen-inside-this-SO3">
+      <div data-aos="flip-down" >				
+        <img  src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Replace-screen-inside-this-SO3-1.jpg" alt="Replace-screen-inside-this-SO3">
          </div>
     </div>
     <!-- Second column -->
@@ -41,7 +41,7 @@
                  <span>		</span></h2>
           </div>
           <div class="empty"></div>
-        <div class="row">
+        <div class="row" data-aos="fade-right">
           <div class= "col-1">
             <i class="fas fa-microphone icon-color"></i> 
           </div>
@@ -54,12 +54,12 @@
           </div>
         <div class="empty"></div>
         <div class="row"> 
-          <div class="col-1">
+          <div class="col-1 ">
             <i class="fa fa-mobile icon-color"></i>
             </div>
-          <div class="col-11">
+          <div class="col-11 col-11-content">
                     <h3>Connect with your phone</h3>
-                  <div class="sh-iconbox-content">
+                  <div class="">
                 Lorem ipsum dolor sit amet, con<br>
                 sectetur adipiscing elit. Mauris			</div>
             </div>
@@ -69,9 +69,9 @@
           <div class="col-1">
             <i class="fa fa-rss icon-color"></i>
                       </div>
-                        <div class="col-11">
+                        <div class="col-11 col-11-content">
                                     <h3>Any task at hand</h3>
-                        <div class="sh-iconbox-content">
+                        <div class="">
                           Lorem ipsum dolor sit amet, con<br>
                   sectetur adipiscing elit. Mauris			</div>
                       </div>
@@ -82,43 +82,41 @@
        </div>
             <!-- SECOND SECTION -->
             <section>
-        <div class="wpb_wrapper">
-          <div>
+        <div class="container">
+          <div class="margin-element">
             <div>
                 <h2 class="heading-2">
                   HOW IT WORKS			</h2>
             </div>
-          </div>
-         <div>
-          <div class="sh-heading sh-heading-style1" id="heading-9KFsEOZIuP">
-            <h2 class="sh-heading-content size-custom">
-              
-              <span style="text-align: left;"><span style="color: #7d1eff;">See for yourself.</span></span>
-              <span style="text-align: left;">Quick video introduction</span>
+          <div class="">
+            <h2 class="heading">
+              <span class="span-content">See for yourself.</span>
+              <span>Quick video introduction</span>
               <span>		</span>
             </h2>
           </div>
-          <div id="text-block-AVxoDg60XB" class="sh-text-block">
+          <div style="height:1rem;"></div>
+          <div class="heading-paraph-contenet">
             <p></p>
-          <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae</p>
-          <p style="text-align: left;">odales lectus, non ultrices nisi. In varius, leo non gravida.</p>
-          <p></p></div>
-         </div>
-         <div class="empty"></div>
-         <div id="video-player-0jeCbSAcV4" class="sh-video-player sh-video-player-style2 sh-placement- sh-video-player-image-placeholder">
-          <div class="sh-video-player-container">
-            <div class="sh-video-player-content">
-              <iframe title="Jevelin Theme - Getting Started (under 2 minutes)" width="500" height="281" src="https://www.youtube.com/embed/g4n2yVPnQzs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>		</div>
-          </div>
-        
-              <div class="sh-video-player-image-container">
-              <div class="sh-video-player-image">
-                <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Screenshot_21-1024x577.jpg" alt="">
-              </div>
-              <div class="sh-video-player-image-play">
-                          <i class="fa fa-play"></i>
-                      </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae</p>
+          <p >odales lectus, non ultrices nisi. In varius, leo non gravida.</p>
+          <p></p>
+        </div>
+          <div style="height: 3rem;"></div>
+          <!-- image and video -->
+          
+            <div class="parent-div">
+              <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Screenshot_21-1024x577.jpg" alt="">
+           
+            <div class="child-div" >
+              <iframe title="Jevelin Theme - Getting Started (under 2 minutes)"  src="https://www.youtube.com/embed/g4n2yVPnQzs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>		
             </div>
+              <div class="child1-div">
+                <i class="fa fa-play"></i>
+            </div>
+          </div> 
+            
+          </div>
           </div>
        
       </section>
@@ -135,5 +133,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-      </body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>    
+  </body>
     </html>

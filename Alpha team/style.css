@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Poppins";
+        font-family: 'Raleway','Helvetica','Arial',sans-serif;
+        font-size: 14px;
+        color: #8d8d8d;
+        line-height: 1.7;
+        font-weight: 400;
 }
+        
 .heading{
     font-size: 3.5rem;
     line-height: 60px !important;
@@ -31,21 +36,78 @@ body{
 .col-11-content{
     padding-left: 1rem;
 }
+.col-11-content h3{
+    font-size:1rem;
+}
 .col-content{
     text-align: left;
     font-size: 1rem;
 }
 .icon-color{
     color: #7d1eff;
+    font-size:1.7rem;
 }
 .col-out{
     margin-top:8rem;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 .empty{
     height:6rem;
 }
+/* Section two */
+.margin-element{
+    margin-left:5.8rem;
+    margin-right:5.8rem;
+    margin-bottom:5rem;
+}
+.span-content{
+    text-align: left;
+    color: #7d1eff;
+}
+.heading{
+    font-size: 3.5rem;
+    line-height: 4rem!important;
+    font-weight: 900!important;
+}
+ .heading-paraph-contenet{
+     color: #3f3849;
+     margin: 0px 0px 15px 0px;
+     text-align: left;
+    }
+    .heading-paraph-contenet p{
+        font-size: 1.5rem; 
+        line-height: 1rem;
+    }
+    .parent-div img{
+        width:1000px;
+        height:563px;
+        
+    }
+    .parent-div{
+        position: relative;
+    }
+    .parent-div .child-div{
+        width:500px;
+         height:281px;
+        position: absolute;
+        top:200px;
+        left:350px;
+    }
+    .parent-div .child1-div{
+        width:14px;
+         height:21px;
+        position: absolute;
+        top:265px;
+        left:500px;
+    }
 
+/* 
+style type="text/css">
+ #text-block-965zRUOfc4 {font-size: 18px;color: #3f3849;margin: 0px 0px 15px 0px;}
+ #text-block-965zRUOfc4 a:hover,#text-block-965zRUOfc4 a:focus {color: #7d1eff;}
+#text-block-965zRUOfc4 p,#text-block-965zRUOfc4 {line-height: 25px;}
+#text-block-965zRUOfc4 .drop-cap {font-weight: bold;font-size: 50px;display: block;
+    float: left;margin: 8px 10px 0 0;}  </style>  */
 /* Aya end */
 
 /* Hewr Start */
