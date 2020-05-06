@@ -1,10 +1,49 @@
 /* Aya Start */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins";
+}
+.heading{
+    font-size: 3.5rem;
+    line-height: 60px !important;
+    font-weight: 900!important;
+    
+}
+.heading span{
+    display: block;
+    text-align: left;
+}
+.element-margin{
+    
+    margin-left: 5rem;
+}
+.heading-2{
+    font-size: 14px;
+    line-height: 30px!important;
+    font-weight: 700!important;
+    letter-spacing: 1px;
+    color: #aca3ba;
+}
+.col-11-content{
+    padding-left: 1rem;
+}
+.col-content{
+    text-align: left;
+    font-size: 1rem;
+}
+.icon-color{
+    color: #7d1eff;
+}
 .col-out{
     margin-top:8rem;
     margin-bottom: 4rem;
 }
 .empty{
-    height:5rem;
+    height:6rem;
 }
 
 /* Aya end */
